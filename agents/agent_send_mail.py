@@ -25,8 +25,8 @@ def apply_for_jobs(state: Dict[str, Any]):
             return state
 
     # .env se Email credentials load karo
-    SENDER_EMAIL = "mdamberkhan707@gmail.com"
-    SENDER_PASSWORD = "blvp vtjm zvga jgoj" # Make sure ye PDF aapke project folder me ho
+    SENDER_EMAIL = "your_mail@gmail.com"
+    SENDER_PASSWORD = "add_your_password" # Make sure ye PDF aapke project folder me ho
 
     if not SENDER_EMAIL or not SENDER_PASSWORD:
         print(" Email credentials missing in .env! Cannot send emails.")
