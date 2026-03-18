@@ -8,27 +8,26 @@ Automated pipeline to scrape LinkedIn hiring posts, filter relevant jobs using A
 LINKEDIN_JOB_APPLY/
 │
 ├── agents/
-│ ├── agent_fetch_post.py # Scrapes & parses LinkedIn posts
-│ ├── agent_job_filter.py # Filters relevant jobs
-│ ├── agent_router.py # Controls workflow transitions
-│ ├── agent_send_mail.py # Applies / sends emails
-│ └── init.py
+│   ├── agent_fetch_post.py      # Scrapes & parses LinkedIn posts
+│   ├── agent_job_filter.py      # Filters relevant jobs
+│   ├── agent_router.py          # Controls workflow transitions
+│   ├── agent_send_mail.py       # Applies / sends emails
+│   └── __init__.py
 │
 ├── packages/
-│ ├── csv_function/ # CSV utilities
-│ ├── linkedin/ # LinkedIn scraping helpers
-│ └── init.py
+│   ├── csv_function/            # CSV utilities
+│   ├── linkedin/                # LinkedIn scraping helpers
+│   └── __init__.py
 │
-├── jobenv/ # Virtual environment (ignored)
-├── .env # Environment variables
-├── .gitignore
-├── Amber_Resume.pdf # Resume used for applications
-├── results.csv # Raw scraped jobs
-├── final_matched_jobs.csv # Filtered jobs
-├── main.py # Entry point
-├── requirements.txt
-└── Readme.md
-
+├── jobenv/                      # Virtual environment
+├── .env                         # Environment variables
+├── .gitignore                   # Files to ignore in Git
+├── Amber_Resume.pdf             # Resume used for applications
+├── results.csv                  # Raw scraped jobs
+├── final_matched_jobs.csv       # Filtered jobs
+├── main.py                      # Application entry point
+├── requirements.txt             # Project dependencies
+└── Readme.md                    # Project documentation
 
 ---
 
