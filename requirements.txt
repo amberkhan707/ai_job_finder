@@ -2,3 +2,6 @@ beautifulsoup4==4.12.3
 requests==2.31.0
 langgraph==0.0.40
 typing-extensions==4.9.0
+langchain>=0.1.0
+langchain-groq>=0.1.0
+python-dotenv>=1.0.0
