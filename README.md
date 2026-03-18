@@ -10,7 +10,6 @@ Pipeline built using **LangGraph StateGraph**:
 
 process_page → router → process_page (loop)
 → match_jobs → apply_jobs → END
-→ END
 
 
 ### Nodes
